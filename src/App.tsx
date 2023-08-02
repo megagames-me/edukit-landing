@@ -3,7 +3,7 @@ import { Navbar } from 'flowbite-react';
 function App() {
   return (
     <div>
-      <Navbar fluid rounded className="px-8 sm:px-8 md:p-4 border-b">
+      <Navbar fluid rounded className="px-8 sm:px-8 md:p-4 md:px-24 border-b">
         <Navbar.Brand href="#">
           <img alt="Edukit Logo" className="mr-3 h-6" src="/logo__edukit.svg" />
           {/* <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
@@ -21,7 +21,7 @@ function App() {
         className="md:pb-24 md:pt-16 md:px-24 p-8 gap-1 lg:gap-3 flex flex-col justify-start"
         id="about"
       >
-        <h1 className="mb-4 text-5xl lg:text-7xl font-extrabold leading-none tracking-tight w-full lg:w-4/5">
+        <h1 className="mb-4 text-5xl lg:text-7xl font-semibold leading-none tracking-tight w-full lg:w-4/5">
           Edukit improves the tutor and tutee experience through quality tools.
         </h1>
         <p className="text-lg lg:text-xl font-normal w-full md:w-4/5 lg:w-2/5">
@@ -30,7 +30,7 @@ function App() {
         </p>
       </header>
       <article className="md:p-24 p-8 py-16 bg-yellow-300 flex flex-col justify-start gap-1 lg:gap-3">
-        <h2 className="mb-4 text-5xl lg:text-6xl font-bold leading-none tracking-tight w-full sm:w-2/5">
+        <h2 className="mb-4 text-5xl lg:text-6xl font-semibold leading-none tracking-tight w-full sm:w-2/5">
           Get started quickly
         </h2>
         <p className="text-lg lg:text-xl font-normal w-full md:w-4/5 lg:w-2/5">
@@ -73,8 +73,8 @@ function App() {
         <p className="text-lg font-normal">
           A{' '}
           <img
-            className="w-[70.29px] h-[18px] inline"
-            src="/logo__better.png"
+            className="w-[70.29px] h-[17px] inline"
+            src="/logo__better.svg"
             alt="better.sg"
           />{' '}
           initiative
