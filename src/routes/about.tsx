@@ -1,11 +1,14 @@
 import { Card } from 'flowbite-react';
 import Nav from '../components/Nav';
-import { Suspense, lazy } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
 import { Fallback } from '../App';
 
 const Footer = lazy(() => import('../components/Footer'));
 
 function About() {
+  useEffect(() => {
+    document.title = 'edukit — About Us';
+  }, []);
   return (
     <div>
       <Nav />

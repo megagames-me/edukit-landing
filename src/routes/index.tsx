@@ -1,10 +1,14 @@
-import { Suspense, lazy } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
 import Nav from '../components/Nav';
 import { Fallback } from '../App';
 
 const Footer = lazy(() => import('../components/Footer'));
 
 function Index() {
+  useEffect(() => {
+    document.title = 'edukit — Home';
+  }, []);
+
   return (
     <div>
       <Nav />
