@@ -53,7 +53,7 @@ function Index() {
               you, for free!
             </p>
             <a
-              href="#"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdgXIM_eCJJdvaZsS_25s_ZzxlI3j7bQ8oe9hZaj3IegShiEA/viewform"
               className="inline-flex items-center font-medium text-yellow-500 dark:text-yellow-500 hover:underline"
             >
               Get in touch
