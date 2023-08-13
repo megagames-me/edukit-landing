@@ -39,6 +39,43 @@ function Index() {
           Try it out →
         </a>
       </article>
+      <section className="p-8 md:p-24 grid md:grid-cols-2 grid-cols-1 md:gap-14">
+        <div>
+          <h1 className="mb-4 text-4xl lg:text-4xl font-semibold leading-none tracking-tight">
+            In the subsidised tuition space and looking for other solutions?
+          </h1>
+        </div>
+        <article className="self-center">
+          <div>
+            <p className="font-normal text-xl text-gray-600 dark:text-gray-500 mb-6">
+              We’ll simplify your work processes. Fill up the form below and
+              let’s have a no obligations discovery call to see how we can help
+              you, for free!
+            </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdgXIM_eCJJdvaZsS_25s_ZzxlI3j7bQ8oe9hZaj3IegShiEA/viewform"
+              className="inline-flex items-center font-medium text-yellow-500 dark:text-yellow-500 hover:underline"
+            >
+              Get in touch
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                aria-hidden="true"
+                viewBox="0 0 14 10"
+                className="w-4 h-4 ml-2"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </article>
+      </section>
       <section className="md:p-24 p-8 grid md:grid-cols-3 grid-cols-1 md:gap-14 gap-8">
         <article className="flex flex-col justify-start gap-3">
           <img src="/illustration__wrench.png" className="w-20 h-20"></img>

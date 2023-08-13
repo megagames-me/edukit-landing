@@ -21,21 +21,21 @@ function About() {
         </p>
       </header>
       <section className="md:py-16 md:px-32 p-8 gap-6 lg:gap-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4  justify-start">
-        <Card imgSrc="placeholder.png">
+        <Card imgSrc="Anto-ProfilePic.jpg">
           <div>
             <h5 className="text-2xl mb-1 font-bold text-gray-900 dark:text-white">
-              <p>Name</p>
+              <p>Anto Francis</p>
             </h5>
             <h6 className="text-xl text-gray-900 dark:text-white">
-              <p>Title</p>
+              <p>Project Lead</p>
             </h6>
           </div>
           <p className="font-normal text-gray-700 dark:text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+          Software developer experienced in leading big scale projects involving large & diverse teams.
           </p>
           <p>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/er-anto-ponselvan/"
               className="inline-flex items-center font-medium text-yellow-500 dark:text-yellow-500 hover:underline"
             >
               LinkedIn
@@ -63,7 +63,7 @@ function About() {
               <p>Lee Wei</p>
             </h5>
             <h6 className="text-xl text-gray-900 dark:text-white">
-              <p>Product Designer</p>
+              <p>Product Designer & Super-PM </p>
             </h6>
           </div>
           <p className="font-normal text-gray-700 dark:text-gray-400">
@@ -71,7 +71,7 @@ function About() {
           </p>
           <p>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/lee-wei/"
               className="inline-flex items-center font-medium text-yellow-500 dark:text-yellow-500 hover:underline"
             >
               LinkedIn
@@ -93,51 +93,14 @@ function About() {
             </a>
           </p>
         </Card>
-        <Card imgSrc="placeholder.png">
-          <div>
-            <h5 className="text-2xl mb-1 font-bold text-gray-900 dark:text-white">
-              <p>Name</p>
-            </h5>
-            <h6 className="text-xl text-gray-900 dark:text-white">
-              <p>Title</p>
-            </h6>
-          </div>
-          <p className="font-normal text-gray-700 dark:text-gray-400">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-            </p>
-          </p>
-          <p>
-            <a
-              href="#"
-              className="inline-flex items-center font-medium text-yellow-500 dark:text-yellow-500 hover:underline"
-            >
-              LinkedIn
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                aria-hidden="true"
-                viewBox="0 0 14 10"
-                className="w-4 h-4 ml-2"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                ></path>
-              </svg>
-            </a>
-          </p>
-        </Card>
+        
         <Card imgSrc="placeholder.png">
           <div>
             <h5 className="text-2xl mb-1 font-bold text-gray-900 dark:text-white">
               <p>Anvay Mathur</p>
             </h5>
             <h6 className="text-xl text-gray-900 dark:text-white">
-              <p>Full-stack Developer</p>
+              <p>The 10X Full-stack Developer</p>
             </h6>
           </div>
           <p className="font-normal text-gray-700 dark:text-gray-400">
@@ -149,6 +112,44 @@ function About() {
               className="inline-flex items-center font-medium text-yellow-500 dark:text-yellow-500 hover:underline"
             >
               Website
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                aria-hidden="true"
+                viewBox="0 0 14 10"
+                className="w-4 h-4 ml-2"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                ></path>
+              </svg>
+            </a>
+          </p>
+        </Card>
+        <Card imgSrc="berwyn-tan.JPG">
+          <div>
+            <h5 className="text-2xl mb-1 font-bold text-gray-900 dark:text-white">
+              <p>Berwyn Tan</p>
+            </h5>
+            <h6 className="text-xl text-gray-900 dark:text-white">
+              <p>Developer</p>
+            </h6>
+          </div>
+          <p className="font-normal text-gray-700 dark:text-gray-400">
+            <p>
+              Software Developer with a sharp mind and keen interest in learning new technologies & tools
+            </p>
+          </p>
+          <p>
+            <a
+              href="#"
+              className="inline-flex items-center font-medium text-yellow-500 dark:text-yellow-500 hover:underline"
+            >
+              LinkedIn
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
