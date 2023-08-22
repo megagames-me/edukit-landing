@@ -94,7 +94,7 @@ function Index() {
         </article>
         <article className="flex flex-col justify-start gap-3">
           <img src="/illustration__clock.png" className="w-20 h-20"></img>
-          <h3 className="text-3xl font-normal">Adopt anywhere</h3>
+          <h3 className="text-3xl font-normal">Time saving</h3>
           <p className="text-lg">
             Our solution does the matching so you don’t have to.
           </p>
