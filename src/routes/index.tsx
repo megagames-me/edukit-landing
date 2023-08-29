@@ -33,7 +33,7 @@ function Index() {
           common parameters such as subjects, education level and gender.
         </p>
         <a
-          href="https://learny-matching-tool-bls3q865g-antoponselvan.vercel.app/"
+          href="http://edukit-matching-tool.better.sg/"
           className="hover:underline hover:cursor-pointer text-lg font-semibold leading-7 tracking-tight"
         >
           Try it out →

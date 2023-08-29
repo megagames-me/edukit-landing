@@ -14,6 +14,11 @@ export const theme: CustomFlowbiteTheme = {
       },
     },
   },
+  card: {
+    img: {
+      // base: 'h-[400px] object-cover object-top',
+    },
+  },
 };
 
 const router = createBrowserRouter([{ path: '*', element: <App /> }]);

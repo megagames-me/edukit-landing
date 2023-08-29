@@ -31,7 +31,8 @@ function About() {
             </h6>
           </div>
           <p className="font-normal text-gray-700 dark:text-gray-400">
-          Software developer experienced in leading big scale projects involving large & diverse teams.
+            Software developer experienced in leading big scale projects
+            involving large & diverse teams.
           </p>
           <p>
             <a
@@ -93,8 +94,8 @@ function About() {
             </a>
           </p>
         </Card>
-        
-        <Card imgSrc="placeholder.png">
+
+        <Card imgSrc="anvay.jpg">
           <div>
             <h5 className="text-2xl mb-1 font-bold text-gray-900 dark:text-white">
               <p>Anvay Mathur</p>
@@ -141,7 +142,8 @@ function About() {
           </div>
           <p className="font-normal text-gray-700 dark:text-gray-400">
             <p>
-              Software Developer with a sharp mind and keen interest in learning new technologies & tools
+              Software Developer with a sharp mind and keen interest in learning
+              new technologies & tools
             </p>
           </p>
           <p>
@@ -186,7 +188,7 @@ function About() {
               you, for free!
             </p>
             <a
-              href="#"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdgXIM_eCJJdvaZsS_25s_ZzxlI3j7bQ8oe9hZaj3IegShiEA/viewform"
               className="inline-flex items-center font-medium text-yellow-500 dark:text-yellow-500 hover:underline"
             >
               Get in touch
