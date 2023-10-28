@@ -17,7 +17,7 @@ function Index() {
         id="about"
       >
         <h1 className="mb-4 text-5xl lg:text-7xl font-semibold leading-none tracking-tight w-full lg:w-4/5">
-          Edukit improves the tutor and tutee experience through quality tools.
+          Edukit improves the tutor and tutee experience through quality tools!
         </h1>
         <p className="text-lg lg:text-xl font-normal w-full md:w-4/5 lg:w-2/5">
           We build tools designed to supplement your existing workflows, such as
